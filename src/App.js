@@ -3,8 +3,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-// css + context
-import './styles/App.css';
+// context
 import { ThemeContext } from './contexts/ThemeContext'
 
 // pages
