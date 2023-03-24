@@ -1,34 +1,40 @@
-import React from 'react';
-import { createContext, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route}
-	from 'react-router-dom';
 
+// libs
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+// pages
+import NavigationBar from './components/NavigationBar';
+import HomePage from './pages/';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+
+// help
 import './App.css';
-import Navbar from './components/navbar';
-import Home from './pages';
-import About from './pages/about';
-import Projects from "./pages/projects";
-import Contact from './pages/contact';
-
-export const ThemeContext = createContext(null);
+import { ThemeContext } from './contexts/ThemeContext'
 
 function App() {
-  const [theme] = useState("dark");
+  const [theme, setTheme] = useState("dark");
+
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
+
   return (
-    <ThemeContext.Provider value={{ theme }}>
-      <div className="App" id={theme}>
-        <Router>
-        <Navbar />
-        <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route path='/about' element={<About/>} />
-          <Route path='/contact' element={<Contact/>} />
-          <Route path='/projects' element={<Projects/>} />
-        </Routes>
-        </Router>
-      </div>
-    </ThemeContext.Provider>
+    <Router>
+      <ThemeContext.Provider value={{ theme, toggleTheme }}>
+        <div className="App" id={theme}>
+          <NavigationBar />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+          </Routes>
+        </div>
+      </ThemeContext.Provider>
+    </Router>
   );
 }
 
 export default App;
+
