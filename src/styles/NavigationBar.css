@@ -43,33 +43,47 @@ nav ul li a {
     color: #808080;
 }
 
-.toggle-button {
+.toggle {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     cursor: pointer;
-}
-
-
-/*
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #f8f8f8;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: #333;
-    font-size: 1.5rem;
-    padding-right: 1rem;
-}
-
-.toggle-button {
     background-color: transparent;
     border: none;
-    cursor: pointer;
-    padding: 0.5rem;
-    margin-right: 1rem;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
-*/
+
+#light .toggle {
+    color: black;
+}
+
+#light .toggle:hover {
+    background-color: #808080;
+}
+
+#dark .toggle {
+    color: white;
+}
+
+#dark .toggle:hover {
+    background-color: #808080;
+}
+
+.tog-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.inverted-icon {
+    filter: invert(1);
+}
