@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../contexts/ThemeContext';
-import moonIcon from '../assets/moon.png';
+import moonIcon from '../assets/moon-stars.png';
 import sunIcon from '../assets/sun.png'
 
 const ToggleButton = () => {
