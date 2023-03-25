@@ -10,6 +10,7 @@ import { ThemeContext } from './contexts/ThemeContext'
 import NavigationBar from './components/NavigationBar';
 import HomePage from './pages/';
 import AboutPage from './pages/AboutPage';
+import Projects from './pages/projects';
 import ContactPage from './pages/ContactPage';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/projects" element={<Projects />} />
           </Routes>
         </div>
       </ThemeContext.Provider>
