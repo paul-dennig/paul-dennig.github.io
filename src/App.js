@@ -8,10 +8,10 @@ import { ThemeContext } from './contexts/ThemeContext'
 
 // pages
 import NavigationBar from './components/NavigationBar';
-import HomePage from './pages/';
-import AboutPage from './pages/AboutPage';
-import Projects from './pages/projects';
-import ContactPage from './pages/ContactPage';
+import Home from './pages/';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -26,9 +26,9 @@ function App() {
         <div className="App" id={theme}>
           <NavigationBar />
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />
           </Routes>
         </div>
