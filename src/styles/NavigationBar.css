@@ -24,7 +24,7 @@ nav ul li:last-child {
 
 nav ul li a {
     text-decoration: none;
-    transition: color 0.2s ease-in-out;
+    transition: color 0.15s ease-in-out;
 }
 
 #light nav ul li a {
@@ -60,6 +60,7 @@ nav ul li a {
     padding-right: 12px;
     padding-top: 12px;
     padding-bottom: 12px;
+    transition: color 0.1s ease-in-out;
 }
 
 #light .toggle {
