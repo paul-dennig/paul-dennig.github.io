@@ -9,7 +9,6 @@ import { ThemeContext } from './contexts/ThemeContext'
 // pages
 import NavigationBar from './components/NavigationBar';
 import Home from './pages/';
-import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
@@ -27,7 +26,6 @@ function App() {
           <NavigationBar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />
           </Routes>

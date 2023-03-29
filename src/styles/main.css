@@ -15,6 +15,26 @@ body {
     transition: color 0.15s ease-in-out;
 }
 
+.Home {
+    padding-top: 0px;
+    padding: 15px;
+}
+
+.About {
+    padding-top: 0px;
+    padding: 15px;
+}
+
+.Projects {
+    padding-top: 0px;
+    padding: 15px;
+}
+
+.Contact {
+    padding-top: 0px;
+    padding: 15px;
+}
+
 #light {
     background-color: #F8F8F8;
     color:#1A1A1A;

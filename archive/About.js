@@ -1,12 +1,11 @@
-import React from 'react';
+import React from "react";
 
-const Home = () => {
+const About = () => {
 	return (
-		<div className='Home'>
-			<h1>Paul Dennig</h1>
-			<h2>Software Engineer</h2>
-			<h2>M.Eng. in Mechanical Engineering @ UC Berkeley</h2>
-			<p>
+		<div className='About'>
+			<h1>
+				About
+			</h1>
 			<p>
 				I've worked on science and engineering projects for most of my life, from elementary school with my dad's help, 
 				through my years at UC Berkeley studying mechanical engineering. The ability to make the world a better place with 
@@ -16,9 +15,8 @@ const Home = () => {
 				at a time. In my free time, I love playing basketball, playing the guitar (though I have a lot of room to improve), 
 				and spending time with my two dogs. After a long day of work, tail wags are one of the best ways to unwind.
 			</p>
-			</p>
 		</div>
 	);
 };
 
-export default Home;
+export default About;
