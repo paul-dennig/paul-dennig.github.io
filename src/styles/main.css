@@ -5,8 +5,10 @@
     --text-dark: #f8fac6;
     --background-light: #f8fac6;
     --text-light: #39325d;
-    --hover-dark: #b4a0cf;
-    --hover-light: #ffd500;
+    --hover-background-dark: #b4a0cf;
+    --hover-background-light: #ffd500;
+    --hover-text-dark: #ffd500;
+    --hover-text-light: #b4a0cf;
 }
 
 body {

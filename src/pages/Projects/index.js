@@ -14,7 +14,7 @@ const Projects = () => {
 					of our code. In the future, our optimized code will be used in physical tests, then be used as a basis to develop 
 					control schemes for more complex tasks, and finally be released as open source.
 					<br/>My team worked under the supervision of Professor Koushil Sreenath and graduate student Ayush Agrawal.
-					<br/>More information can be found at: https://hybrid-robotics.berkeley.edu/
+					<br/>More information can be found at <a href="https://hybrid-robotics.berkeley.edu/">the lab website.</a>
 				</p>
 				<h3>Heart Motion Analysis</h3>
 				<p>
@@ -33,8 +33,8 @@ const Projects = () => {
 					this course was the creation of finite element solvers implemented from scratch in Matlab and Python. Based on 
 					provided/generated initial and/or boundary conditions, I solved Laplace's equation in 1D with higher order elements, 
 					as well as variations like Poisson's equation and the wave equation in higher dimensions. In addition, I used FEniCS 
-					to solve the consistent pressure Poisson's equation, which is a simplified form of the Navier-Stokes equations. The 
-					animation shown is my solution of the wave equation in Matlab, representing the famous light double-slit experiment. 
+					to solve the consistent pressure Poisson's equation, which is a simplified form of the Navier-Stokes equations. My favorite
+					animation I generated is of my solution of the wave equation in Matlab, representing the famous light double-slit experiment. 
 					My solution uses the Crank-Nicolson time stepping method, with a time constant of 0.001 seconds and a total time of 
 					5 seconds.
 				</p>

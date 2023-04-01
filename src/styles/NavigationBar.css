@@ -36,11 +36,11 @@ nav ul li a {
 }
 
 #light nav ul li a:hover {
-    color: var(--hover-light);
+    color: var(--hover-text-light);
 }
 
 #dark nav ul li a:hover {
-    color: var(--hover-dark);
+    color: var(--hover-text-dark);
 }
 
 .toggle {
@@ -64,19 +64,19 @@ nav ul li a {
 }
 
 #light .toggle {
-    color: #39325d;
+    color: var(--text-light);
 }
 
 #light .toggle:hover {
-    background-color: #ffd500;
+    background-color: var(--hover-background-light);
 }
 
 #dark .toggle {
-    color: #f8fac6;
+    color: var(--text-dark);
 }
 
 #dark .toggle:hover {
-    background-color: #b4a0cf;
+    background-color: var(--hover-background-dark);
 }
 
 .tog-icon {
