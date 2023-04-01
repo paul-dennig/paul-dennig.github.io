@@ -3,7 +3,7 @@ nav {
     display: flex;
     justify-content: space-between;
     /*align-items: center;*/
-    /*padding: 16px;*/
+    padding: 15px;
 }
 
 nav ul {
@@ -28,19 +28,19 @@ nav ul li a {
 }
 
 #light nav ul li a {
-    color: #000000;
+    color: var(--text-light);
 }
 
 #dark nav ul li a {
-    color: white;
+    color: var(--text-dark);
 }
 
 #light nav ul li a:hover {
-    color: #808080;
+    color: var(--hover-light);
 }
 
 #dark nav ul li a:hover {
-    color: #808080;
+    color: var(--hover-dark);
 }
 
 .toggle {
@@ -64,19 +64,19 @@ nav ul li a {
 }
 
 #light .toggle {
-    color: black;
+    color: #39325d;
 }
 
 #light .toggle:hover {
-    background-color: #808080;
+    background-color: #ffd500;
 }
 
 #dark .toggle {
-    color: white;
+    color: #f8fac6;
 }
 
 #dark .toggle:hover {
-    background-color: #808080;
+    background-color: #b4a0cf;
 }
 
 .tog-icon {
