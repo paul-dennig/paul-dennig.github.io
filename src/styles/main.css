@@ -1,14 +1,19 @@
 /* Default styles for the body element */
 
 :root {
-    --background-dark: #39325d;
-    --text-dark: #f8fac6;
-    --background-light: #f8fac6;
-    --text-light: #39325d;
-    --hover-background-dark: #b4a0cf;
-    --hover-background-light: #ffd500;
-    --hover-text-dark: #ffd500;
-    --hover-text-light: #b4a0cf;
+    --full-dark: #1b263b;
+    --half-dark: #415a77;
+    --full-light: #e0e1dd;
+    --half-light: #778da9;
+
+    --background-dark: var(--full-dark);
+    --text-dark: var(--full-light);
+    --background-light: var(--full-light);
+    --text-light: var(--full-dark);
+    --hover-background-dark: var(--half-dark);
+    --hover-background-light: var(--half-light);
+    --hover-text-dark: var(--half-light);
+    --hover-text-light: var(--half-dark);
 }
 
 body {
@@ -18,6 +23,16 @@ body {
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
     padding: 0px;
+}
+
+#light {
+    background-color: var(--background-light);
+    color: var(--text-light);
+}
+
+#dark {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
 }
 
 .App {
@@ -41,12 +56,10 @@ body {
     padding-right: 15px;
 }
 
-#light {
-    background-color: var(--background-light);
-    color: var(--text-light);
+#light a {
+    color: var(--hover-text-dark);
 }
 
-#dark {
-    background-color: var(--background-dark);
-    color: var(--text-dark);
+#dark a {
+    color: var(--hover-text-dark);
 }
