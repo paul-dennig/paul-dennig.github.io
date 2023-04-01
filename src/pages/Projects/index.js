@@ -15,7 +15,6 @@ const Projects = () => {
 					control schemes for more complex tasks, and finally be released as open source.
 					<br/>My team worked under the supervision of Professor Koushil Sreenath and graduate student Ayush Agrawal.
 					<br/>More information can be found at: https://hybrid-robotics.berkeley.edu/
-					<br/>Image source: https://www.theverge.com/2020/1/6/21050322/bipedal-robot-digit-agility-robotics-on-sale-delivery-inspection-ces-2020
 				</p>
 				<h3>Heart Motion Analysis</h3>
 				<p>
@@ -27,7 +26,6 @@ const Projects = () => {
 					will be analyzed systematically to determine potential pathology. 
 					<br/>I assisted this project in Shadden Lab, a biomechanics lab at UC Berkeley. Professor Shawn Shadden is the 
 					director of the lab and Miguel A. Rodriguez was the graduate student researcher leading this project.
-					<br/>Image source: https://twitter.com/medviso/status/1281566728976302080
 				</p>
 				<h3>Finite Element Solvers</h3>
 				<p>
@@ -39,7 +37,6 @@ const Projects = () => {
 					animation shown is my solution of the wave equation in Matlab, representing the famous light double-slit experiment. 
 					My solution uses the Crank-Nicolson time stepping method, with a time constant of 0.001 seconds and a total time of 
 					5 seconds.
-					<br/>Video source: self-generated from Matlab
 				</p>
 				<h3>Java Based SQL Database</h3>
 				<p>
@@ -47,13 +44,11 @@ const Projects = () => {
 					included a simple query language to access stored data. The DBMS worked with smaller tables and therefore optimizations 
 					were not implemented to improve the efficiency for large tables. The DBMS was implemented in Java and the query language 
 					was based on SQL.
-					<br/>Image source: https://www.bloggersinsights.com/images/embed_image/hr7v9dbms.jpg
 				</p>
 				<h3>Git Implementation</h3>
 				<p>
 					I used Java to implement a version control system based on some of the core functionalities of Git. The Git commands 
 					implemented in this project were commit, checking out, log, maintaining branches, and merging branches.
-					<br/>Image source: https://mechomotive.com/wp-content/uploads/2021/08/vcs.png
 				</p>
 				<h3>Zigbee Indoor Positioning System</h3>
 				<p>
@@ -63,13 +58,11 @@ const Projects = () => {
 					method to obtain position with accuracy. Trilateration can be applied even with an overdetermined system, allowing for 
 					many radio beacons. One goal was to help Alzheimer's and dementia patients by adding vocal instructions to develop a 
 					guidance system though a house. I hope to use this technology for specific future applications.
-					<br/>Image source: https://www.researchgate.net/profile/Alwin-Poulose/publication/344188953/figure/fig5/AS:941780560261125@1601549391810/UWB-localization-using-trilateration-approach.ppm
 				</p>
 				<h3>Raspberry Pi Based LED Music Visualizer</h3>
 				<p>
 					I created a simple music visualizer in Python which simply found the amplitudes of different frequency ranges in a given 
 					input sound sample in real time. I used NumPy's fast Fourier transform implementation, a Raspberry Pi, and an LED matrix.
-					<br/>Image source: https://windowsreport.com/audio-spectrum-visualizer/
 				</p>
 				<h3>Longboard Passive Stabilizer</h3>
 				<p>
@@ -80,7 +73,6 @@ const Projects = () => {
 					verify that our design would improve stability for a rider.
 					<br/>I was the team lead and my project group was Jason Luke, Cameron Stearn, Robin Chang, Richard Brutski, and Xander White. Our 
 					instructor for the course, Prof. Homayoon Kazerooni, gave us great guidance throughout the entire semester.
-					<br/>Image source: self-generated
 				</p>
 				<h3>Axial Flux Machine</h3>
 				<p>
@@ -89,7 +81,6 @@ const Projects = () => {
 					Arduino to measure the RPM. Since I used this as a generator as opposed to a motor, I didn't use a speed controller; rather, 
 					I measured the power output for various RPM. I built this to have a greater understanding of these machines. If I were to 
 					continue this project, my goals were to use it in a pumped hydro energy storage system.
-					<br/>Image source: self-generated
 				</p>
 			</div>
 		</div>
